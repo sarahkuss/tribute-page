@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+body {
+  background-image: url(../images/Background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  /* margin-bottom: 5px; */
+}
+
+.container p {
+  display: flex;
+  justify-content: center;
+  margin: 15px 10%;
+  font-family: 'Lato', sans-serif;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  margin-top: 10px;
+}
