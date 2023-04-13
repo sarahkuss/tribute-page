@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-*, *:after, *:before {
+/* *, *:after, *:before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-}
+} */
 
 
 body {
@@ -13,6 +13,38 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container1 div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* .fashion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.drugs {
+  display: flex;
+  justify-content: center;
+} */
+
+.flex-container img{
+  padding: 10px;
+  width: 35%;
 }
 
 h1 {
@@ -26,19 +58,35 @@ h2 {
   display: flex;
   justify-content: center;
   font-family: 'Lato', sans-serif;
-  /* margin-bottom: 5px; */
 }
 
-.container p {
+.main-container p {
   display: flex;
   justify-content: center;
-  margin: 15px 10%;
+  /* margin: 15px 10%; */
   font-family: 'Lato', sans-serif;
 }
 
-.container img {
+main img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container1 img {
   display: block;
   margin: 0 auto;
   width: 35%;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+/* .pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 15px;
+  width: 100%;
+} */
