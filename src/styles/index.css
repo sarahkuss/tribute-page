@@ -32,19 +32,11 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-/* .fashion {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.drugs {
-  display: flex;
-  justify-content: center;
-} */
 
 .flex-container img{
   padding: 10px;
   width: 35%;
+  border-radius: 10%;
 }
 
 h1 {
@@ -52,12 +44,17 @@ h1 {
   font-size: 90px;
   display: flex;
   justify-content: center;
+  background: #CF4B72;
+  background: linear-gradient(to right, #CF4B72 39%, #6E0B0A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
   display: flex;
   justify-content: center;
   font-family: 'Lato', sans-serif;
+  font-size: 40px;
 }
 
 .main-container p {
@@ -65,14 +62,16 @@ h2 {
   justify-content: center;
   /* margin: 15px 10%; */
   font-family: 'Lato', sans-serif;
+  font-size: 25px;
 }
 
 main img {
   display: block;
   margin: 0 auto;
   width: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  border-radius: 10%;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
 }
 
 .container1 img {
@@ -81,12 +80,15 @@ main img {
   width: 35%;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 10%;
 }
 
-/* .pictures {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-right: 15px;
-  width: 100%;
-} */
+p.small {
+  font-size: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
